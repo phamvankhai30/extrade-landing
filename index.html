@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extrade.app - Giao dịch tự động</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="./images/logo-favicon.png`" type="image/png" />
+    <style>
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    
+      .scrolling-wrapper {
+        animation: scroll-left 20s linear infinite;
+      }
+      
+    </style>
+  </head>
+  <body class="bg-white">
+
+    <!-- Section đầu tiên -->
+    <section
+      class="relative bg-cover bg-center bg-no-repeat mx-auto"
+      style="width: 1440px; height: 100vh; padding: 20px 20px 0 20px; background-image: 
+      radial-gradient(ellipse, rgba(251, 176, 64, 0.6) 0%, rgb(255, 255, 255) 70%),
+      url('./images/bg.png');">
+
+      <!-- Header Section -->
+      <header
+        class="absolute top-5 left-0 right-0 p-4 flex justify-between items-center"
+        style="width: 1440px; height: 94px; border-radius: 20px; background-color: #FBB04A; padding: 10px 30px;">
+        <!-- Logo và tên -->
+        <div class="flex items-center">
+          <img src="./images/logo.svg" alt="Logo"
+            class="w-12 h-12 mr-3">
+          <h1 class="text-2xl text-black font-bold">Extrade.app</h1>
+        </div>
+
+        <!-- App store & Google play -->
+        <div class="flex items-center gap-4">
+          <img src="./images/google-play.svg" alt="Google Play"
+            class="w-32">
+          <img src="./images/app-store.svg" alt="App Store"
+            class="w-32">
+        </div>
+      </header>
+
+      <!-- Nội dung chính -->
+      <div
+        class="flex items-center justify-between px-10 gap-10 h-[calc(100vh-114px)] mt-[114px]"
+        style="width: 1440px;">
+        <!-- Text bên trái -->
+        <div class="w-1/2 flex flex-col justify-center">
+          <h2
+            class="text-5xl font-bold text-gray-800 leading-tight mb-6 wave-text">
+            Biến động thị trường cao,<br />
+            bây giờ là thời điểm kiểm<br />
+            soát hành trình làm giàu<br />
+            của bạn!
+          </h2>
+          <p class="text-lg text-gray-600 mb-8">
+            Giao dịch tự động thông minh theo chiến lược đã định
+            sẵn, hạn chế cảm xúc, tiết kiệm thời gian, kiểm soát rủi
+            ro.
+          </p>
+          <button
+            class="bg-[#FBB04A] text-black text-base font-medium py-3 px-6 rounded-xl w-fit hover:bg-[#e39a32] transition-all duration-200">
+            Trải nghiệm ngay →
+          </button>
+        </div>
+
+        <!-- Hình ảnh bên phải -->
+        <div class="w-1/2 flex justify-center items-center">
+          <img src="./images/chart.svg" alt="Biểu đồ"
+            class="w-[850px] h-[489px] object-contain">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section mô tả -->
+    <section class="w-[1440px] mx-auto px-10 py-10 text-center">
+      <p class="text-base text-gray-700 mb-2">
+        Chúng tôi cung cấp <span
+          class="text-[#FBB04A] font-semibold">giải pháp tốt
+          nhất</span>
+      </p>
+      <h2 class="text-3xl font-bold text-gray-800 leading-snug mb-4">
+        Một ứng dụng đơn giản, tự động hóa, tích hợp đa nền tảng,<br />
+        tối ưu chiến lược và quản lý rủi ro
+      </h2>
+      <p class="text-gray-600 text-base max-w-3xl mx-auto">
+        Ứng dụng hỗ trợ tính năng giao dịch linh hoạt, phù hợp với cả
+        người mới lẫn nhà đầu tư chuyên nghiệp.
+        Bạn có thể dễ dàng tùy chỉnh chiến lược và thực hiện giao dịch
+        nhanh chóng, hiệu quả mọi lúc mọi nơi.
+      </p>
+      <div class="p-2 flex items-center justify-center h-full">
+        <img src="./images/tool-img.svg" alt="Tool Extrade.app"
+          class="w-[1132px] h-[500px] object-cover object-center">
+      </div>
+    </section>
+
+    <!-- Section liên kết sàn giao dịch -->
+    <section
+      class="w-[700px] mx-auto px-10 pt-0 py-8 text-center overflow-hidden">
+      <p class="text-lg text-gray-800 font-medium">
+        Liên kết với nhiều <span class="text-[#FBB04A] font-semibold">sàn giao
+          dịch uy tín</span>
+      </p>
+
+      <div class="mt-10 overflow-hidden whitespace-nowrap">
+        <div
+          class="inline-flex items-center gap-12 text-sm text-gray-400 scrolling-wrapper">
+          <!-- OKX -->
+          <div class="flex items-center gap-2">
+            <img src="./images/lk-okx.svg" alt="OKX" class="h-8">
+            <span>OKX</span>
+          </div>
+          <!-- Bybit -->
+          <div class="flex items-center gap-2">
+            <img src="./images/lk-bybit.svg" alt="Bybit" class="h-8">
+            <span>Bybit</span>
+          </div>
+          <!-- Binance -->
+          <div class="flex items-center gap-2">
+            <img src="./images/lk-binance.svg" alt="Binance" class="h-8">
+            <span>Binance</span>
+          </div>
+          <!-- Mexc -->
+          <div class="flex items-center gap-2">
+            <img src="./images/lk-mexc.svg" alt="Mexc" class="h-8">
+            <span>Mexc</span>
+          </div>
+          <!-- BingX -->
+          <div class="flex items-center gap-2">
+            <img src="./images/lk-bingx.svg" alt="BingX" class="h-8">
+            <span>BingX</span>
+          </div>
+          <!-- Bitget -->
+          <div class="flex items-center gap-2">
+            <img src="./images/lk-bitget.svg" alt="Bitget" class="h-8">
+            <span>Bitget</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer
+      class="w-[1440px] mx-auto px-10 py-4 text-center text-sm text-gray-500">
+      © 2025 Extrade.app All rights reserved.
+    </footer>
+  </body>
+</html>
