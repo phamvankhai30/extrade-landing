@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Extrade.app - Giao dịch tự động</title>
-    <link rel="icon" href="./images/logo.svg" type="image/png" />
+    <link rel="icon" href="./assets/images/logo.svg" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -17,13 +17,17 @@
     <div class="container">
       <header class="site-header">
         <div class="left-side">
-          <img class="logo" src="./images/logo.svg" alt="logo-extrade.app" />
+          <img
+            class="logo"
+            src="./assets/images/logo.svg"
+            alt="logo-extrade.app"
+          />
           <h1 class="title">Extrade.app</h1>
         </div>
 
         <div class="right-side">
-          <img src="./images/google-play.svg" alt="Google Play" />
-          <img src="./images/app-store.svg" alt="App Store" />
+          <img src="./assets/images/google-play.svg" alt="Google Play" />
+          <img src="./assets/images/app-store.svg" alt="App Store" />
         </div>
       </header>
 
@@ -41,7 +45,7 @@
         </div>
 
         <div class="right-side">
-          <img src="./images/chart.svg" alt="Biểu đồ" />
+          <img src="./assets/images/chart.svg" alt="Biểu đồ" />
         </div>
       </section>
 
@@ -68,7 +72,10 @@
                 theo mong muốn.
               </span>
             </div>
-            <img src="./images/items/left-1.svg" alt="cau-hinh-don-gian" />
+            <img
+              src="./assets/images/items/left-1.svg"
+              alt="cau-hinh-don-gian"
+            />
           </div>
           <div class="item-left left-2">
             <div class="wrapper">
@@ -77,7 +84,10 @@
                 Không cần theo dõi thị trường liên tục.
               </span>
             </div>
-            <img src="./images/items/left-2.svg" alt="tiet-kiem-thoi-gian" />
+            <img
+              src="./assets/images/items/left-2.svg"
+              alt="tiet-kiem-thoi-gian"
+            />
           </div>
           <div class="item-left left-3">
             <div class="wrapper">
@@ -87,15 +97,21 @@
                 đến Leader.
               </span>
             </div>
-            <img src="./images/items/left-3.svg" alt="phu-hop-moi-nguoi-dung" />
+            <img
+              src="./assets/images/items/left-3.svg"
+              alt="phu-hop-moi-nguoi-dung"
+            />
           </div>
           <img
-            src="./images/smart-phone.png"
+            src="./assets/images/smart-phone.PNG"
             alt="Tool Extrade.app"
             class="phone"
           />
           <div class="item-right right-1">
-            <img src="./images/items/right-1.svg" alt="tu-dong-hoa-100" />
+            <img
+              src="./assets/images/items/right-1.svg"
+              alt="tu-dong-hoa-100"
+            />
             <div class="wrapper">
               <span class="content"> Tự động hóa 100% </span>
               <span class="sub-content">
@@ -105,7 +121,10 @@
             </div>
           </div>
           <div class="item-right right-2">
-            <img src="./images/items/right-2.svg" alt="tang-hieu-suat-dau-tu" />
+            <img
+              src="./assets/images/items/right-2.svg"
+              alt="tang-hieu-suat-dau-tu"
+            />
             <div class="wrapper">
               <span class="content"> Tăng hiệu suất đầu tư </span>
               <span class="sub-content">
@@ -115,7 +134,7 @@
           </div>
           <div class="item-right right-3">
             <img
-              src="./images/items/right-3.svg"
+              src="./assets/images/items/right-3.svg"
               alt="quan-ly-rui-ro-hieu-qua"
             />
             <div class="wrapper">
@@ -136,29 +155,29 @@
         </span>
 
         <div class="partners-wrap">
-          <div class="anim-wrap scrolling-wrapper">
+          <div class="anim-wrap">
             <div class="partner">
-              <img src="./images/lk-okx.svg" alt="OKX" />
+              <img src="./assets/images/lk-okx.svg" alt="OKX" />
               <span>OKX</span>
             </div>
             <div class="partner">
-              <img src="./images/lk-bybit.svg" alt="Bybit" />
+              <img src="./assets/images/lk-bybit.svg" alt="Bybit" />
               <span>Bybit</span>
             </div>
             <div class="partner">
-              <img src="./images/lk-binance.svg" alt="Binance" />
+              <img src="./assets/images/lk-binance.svg" alt="Binance" />
               <span>Binance</span>
             </div>
             <div class="partner">
-              <img src="./images/lk-mexc.svg" alt="Mexc" />
+              <img src="./assets/images/lk-mexc.svg" alt="Mexc" />
               <span>Mexc</span>
             </div>
             <div class="partner">
-              <img src="./images/lk-bingx.svg" alt="BingX" />
+              <img src="./assets/images/lk-bingx.svg" alt="BingX" />
               <span>BingX</span>
             </div>
             <div class="partner">
-              <img src="./images/lk-bitget.svg" alt="Bitget" />
+              <img src="./assets/images/lk-bitget.svg" alt="Bitget" />
               <span>Bitget</span>
             </div>
           </div>
@@ -194,6 +213,37 @@
         document.addEventListener("DOMContentLoaded", function () {
           window.addEventListener("scroll", checkItems);
           window.addEventListener("resize", checkItems);
+
+          const wrapper = document.querySelector(".anim-wrap");
+          const partners = document.querySelectorAll(".partner");
+
+          let totalWidth = 0;
+          partners.forEach((partner) => {
+            const clone = partner.cloneNode(true);
+            wrapper.appendChild(clone);
+
+            const width = partner.offsetWidth;
+
+            const gap = 100;
+            totalWidth += width + gap;
+          });
+
+          let position = 10;
+          const speed = 1;
+
+          function animatePartners() {
+            position -= speed;
+
+            console.log(totalWidth);
+            if (Math.abs(position) >= totalWidth) {
+              position = 10;
+            }
+
+            wrapper.style.transform = `translateX(${position}px)`;
+            requestAnimationFrame(animatePartners);
+          }
+
+          animatePartners();
         });
       </script>
     </div>
