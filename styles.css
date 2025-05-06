@@ -1,5 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Inter, sans-serif;
+  font-family: "Inter", sans-serif;
   color: #344054;
   background-color: #fff;
   width: 100%;
@@ -121,6 +127,7 @@ body {
 .hero-section .right-side img {
   height: 100%;
   object-fit: contain;
+  animation: zoomIn 1.5s ease-out forwards;
 }
 
 .features-section {
